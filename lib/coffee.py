@@ -12,10 +12,10 @@ class Coffee:
     @size.setter
     def size(self,value):
         if value not in ["Small","Medium","Large"]:
-            print("size must be Small,Medium or Large")
+            print("size must be Small, Medium, or Large")
         else:
             self._size = value
 
     def tip(self):
-        print("This coffee is great, here's a tip")
+        print("This coffee is great, heres a tip")
         self.price += 1
